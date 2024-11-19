@@ -1,0 +1,19 @@
+.skills{
+    padding: 100px 0px;
+}
+.s-text{
+    text-align: center;
+}
+.s-text h2{
+    font-size: 40px !important;
+    color: #333333;
+    font-weight: 600;
+}
+.s-text p{
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+.skill-boxes{
+    /* background: lightblue; */
+    margin: 0 auto;
+}

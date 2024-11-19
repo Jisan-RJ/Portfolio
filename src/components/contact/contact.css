@@ -1,0 +1,221 @@
+.contact{
+    padding: 100px 0px;
+}
+.contact-text{
+    text-align: center;
+}
+.contact-text h2 {
+    font-size: 40px !important;
+    color: #333333;
+    font-weight: 600;
+}
+.contact-text p {
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background: lightblue; */
+}
+.left-box h3{
+    color: #333333 !important;
+    padding-bottom: 15px;
+    font-size: 26px;
+}
+.left-box1, .left-box2, .left-box3{
+    /*border: 1px solid red !important;
+    */padding: 22px 0px !important;
+    text-align: center !important;
+    box-shadow: 2px 3px 5px -1px rgba(51,51,51,1) !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* .left-box1:hover, .left-box2:hover, .left-box3:hover{
+    box-shadow:inset 2px 3px 5px -1px rgba(51,51,51,1) !important;
+    transition: .6s !important;
+    -webkit-transition: .6s !important;
+    -moz-transition: .6s !important;
+    -ms-transition: .6s !important;
+    -o-transition: .6s !important;
+} */
+.left-box1 svg, .left-box2 svg, .left-box3 svg{
+    font-size: 34px !important;
+    color: #333333;
+}
+.left-box1 h3, .left-box2 h3, .left-box3 h3{
+    font-size: 21px !important;
+    color: #333333;
+    padding-top: 15px;
+}
+.left-box1 .address, .left-box2 .address, .left-box3 .address{
+    text-decoration: none;
+    color: #757575;
+    display: block;
+    padding-bottom: 14px;
+}
+.left-box1 .common, .left-box2 .common, .left-box3 .common{
+    text-decoration: none;
+    color: #757575;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 32px !important;
+ 
+}
+
+form input{
+    outline: none;
+    background: transparent;
+    height: 60px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-left: 26px;
+    border: 1px solid #333333;
+}
+form textarea{
+    height: 155px !important;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-left: 27px;
+    padding-top: 15px;
+    border: 1px solid #333333;
+    margin-bottom: 57px !important;
+}
+.contact-form{
+    text-align: center !important;
+}
+.contact-form h3{
+    color: #333333 !important;
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+.contact-form a{
+    padding: 20px 32px;
+  
+    color: #fff !important;
+    background: #333333;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+
+
+@media (min-width: 769px) and (max-width: 991px){
+    .left-box1{
+        padding: 22px 26px !important;
+    }
+    .left-box1 svg{
+        font-size: 20px !important;
+    }
+    .left-box1 h3{
+        font-size: 15px !important;
+    }
+    .left-box1 .address{
+        font-size: 13px !important;
+
+    }
+    .left-box1 .common{
+        font-size: 13px !important;
+    }
+
+
+
+    .left-box2{
+        padding: 22px 66px !important;
+    }
+    .left-box2 svg{
+        font-size: 20px !important;
+    }
+    .left-box2 h3{
+        font-size: 15px !important;
+    }
+    .left-box2 .address{
+        font-size: 13px !important;
+
+    }
+    .left-box2 .common{
+        font-size: 13px !important;
+    }
+
+
+
+
+
+    .left-box3{
+        padding: 22px 66px !important;
+    }
+    .left-box3 svg{
+        font-size: 20px !important;
+    }
+    .left-box3 h3{
+        font-size: 15px !important;
+    }
+    .left-box3 .address{
+        font-size: 13px !important;
+
+    }
+    .left-box3 .common{
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    .left-box1{
+        padding: 22px 26px !important;
+    }
+    .left-box1 svg{
+        font-size: 20px !important;
+    }
+    .left-box{
+        display: flex;
+        flex-direction: column;
+        gap: 15px !important;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* background: lightblue; */
+    }
+
+    .left-box2{
+        padding: 22px 66px !important;
+    }
+    .left-box2 svg{
+        font-size: 20px !important;
+    }
+
+
+    .left-box3{
+        padding: 22px 66px !important;
+    }
+    .left-box3 svg{
+        font-size: 20px !important;
+    }
+    .contact-form h3 {
+        color: #333333 !important;
+        padding-bottom: 25px;
+        font-size: 26px;
+        padding-top: 66px;
+    }
+    
+}

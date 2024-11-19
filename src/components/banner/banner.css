@@ -1,0 +1,66 @@
+.banner{
+    padding: 100px 0px !important;
+}
+.text-side{
+    /* background: lightblue; */
+    padding-top: 60px;
+}
+.photo-side{
+    /* background: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo-side img{
+    width: 65%;
+    height: auto;
+}
+.text-side h1{
+    color: #333333;
+    font-weight: 700;
+}
+.text-side h3{
+    font-size: 21px;
+    padding-left: 174px;
+    color: #333333;
+    padding-top: 10px;
+}
+.text-side p{
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+.text-side a{
+    padding: 15px 38px;
+    background: #333333;
+    color: #fff !important;
+    border: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+@media (min-width: 769px) and (max-width: 991px){
+    .text-side{
+        text-align: center;
+    }
+    .text-side h3{
+        padding-left: 0px;
+    }
+    .space{
+        gap: 102px !important;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 768px){
+    .text-side{
+        text-align: center;
+    }
+    .text-side h3{
+        padding-left: 0px;
+    }
+    .space{
+        gap: 102px !important;
+    }
+}

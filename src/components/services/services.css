@@ -1,0 +1,71 @@
+.services{
+    padding: 100px 0px;
+}
+.slider-container{
+    margin: 0 auto !important;
+}
+.box{
+    /* width: 30% !important; */
+    /* background: red !important; */
+    /* border: 1px solid lightblue !important; */
+    text-align: center !important;
+    padding-top: 80px !important;
+    padding-bottom: 30px !important;
+    
+}
+.border{
+    position: relative;
+}
+.border::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 50%;
+    background: #333333;
+}
+.border::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    height: 2px;
+    width: 50%;
+    background: #333333;
+}
+.inset{
+    box-shadow: inset 3px 2px 7px -5px black,inset -3px -2px 7px -5px black !important;
+}
+.normal{
+    box-shadow: 3px 2px 7px -5px black, -3px -2px 7px -5px black !important;
+}
+.box h3{
+    font-size: 18px !important;
+    padding-top: 34px !important;
+    color: #333333 !important;
+    font-weight: 700 !important;
+}
+.ssl{
+    margin: 0 auto !important;
+    /* border: 1px solid red; */
+}
+.box svg{
+    font-size: 37px !important;
+}
+.box p svg{
+    font-size: 15px !important;
+}
+
+.service-text{
+    text-align: center !important;
+}
+.service-text h2{
+    font-size: 40px !important;
+    color: #333333;
+    font-weight: 600;
+}
+.service-text p{
+    font-weight: 500;
+    padding-bottom: 60px;
+}

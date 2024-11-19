@@ -1,0 +1,26 @@
+.footer{
+    padding: 100px 0px;
+    background: white !important;
+}
+.footer-text{
+    text-align: center !important;
+    color: #333333 !important;
+}
+.footer-text h3{
+    font-weight: 700;
+    font-size: 32px ;
+    padding-bottom: 26px;
+}
+.last-link{
+    /* background: lightblue; */
+    margin: 0 auto;
+}
+.last-link a{
+    padding: 0px 16px;
+}
+.last-link a svg{
+    font-size: 30px !important;
+}
+.footer-text h6{
+    padding-top: 100px !important;
+}
